@@ -1,0 +1,36 @@
+#main {
+    text-align: center;
+}
+
+#calculator {
+    margin: auto;
+    width: 33%;
+    background-color: black;
+}
+
+p, h1 {
+    color: turquoise;
+}
+
+#num-sect {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: blueviolet;
+
+}
+
+#zero {
+    grid-column: 1 / span 2;
+    /* text-align: ;
+    I want to make it so that the 0 also align with the first column of nums */
+}
+
+#other-funct {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.body {
+    display: grid;
+    grid-template-columns: auto auto;
+}
